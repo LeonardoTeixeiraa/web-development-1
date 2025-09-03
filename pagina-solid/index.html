@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Princípio SOLID</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+    <style>
+      img {
+        width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>  
+        SOLID: o que é e quais os 5 princípios da Programação Orientada a
+        Objetos (POO)
+      </h1>
+      <p>
+        Fique por dentro do que são os princípios <strong>SOLID</strong> e como
+        podemos aplicá-los nos códigos para aumentar a qualidade dos projetos.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>O que é SOLID?</h2>
+        <p>
+          O acrônimo <strong>SOLID</strong> representa os cinco princípios que
+          facilitam o processo de desenvolvimento — o que facilita a manutenção
+          e a expansão do software.
+        </p>
+        <p>
+          Estes princípios são fundamentais na
+          <mark>programação orientada a objetos</mark> e podem ser aplicados em
+          qualquer linguagem que adote este paradigma.
+        </p>
+        <p>Os 5 princípios são:</p>
+        <ul>
+          <li><strong>S</strong> — Single Responsibility Principle</li>
+          <li><strong>O</strong> — Open-Closed Principle</li>
+          <li><strong>L</strong> — Liskov Substitution Principle</li>
+          <li><strong>I</strong> — Interface Segregation Principle</li>
+          <li><strong>D</strong> — Dependency Inversion Principle</li>
+        </ul>
+        <figure>
+          <img
+            src="./assets/img/img-solid.png"
+            alt="Imagem ilustrativa do princípio SOLID"
+          />
+          <figcaption>Imagem representando os 5 princípios SOLID</figcaption>
+        </figure>
+      </section>
+
+      <section>
+        <h2>Origem dos princípios SOLID</h2>
+        <p>
+          O primeiro indício dos princípios SOLID apareceu em 1995, no artigo
+          <em>“The principles of OoD”</em> de Robert C. Martin, também conhecido
+          como “Uncle Bob”.
+        </p>
+        <blockquote>
+          “The only way to go fast, is to go well.”
+          <cite> — Robert C. Martin (Uncle Bob)</cite>
+        </blockquote>
+        <p>
+          E, em 2002, lançou o livro
+          <em
+            >“Agile Software Development, Principles, Patterns, and
+            Practices”</em
+          >
+          que reúne diversos artigos sobre o tema.
+        </p>
+      </section>
+
+      <section>
+        <h2>
+          Princípio da Responsabilidade Única (S - Single Responsibility
+          Principle)
+        </h2>
+        <p>
+          As classes deverão ter um única função relacionada a ela, como exemplo
+          a classe GerenciadorTarefas terá os métodos relacionados somente às
+          operações com tarefas.
+        </p>
+        <p>
+          Em resumo, o princípio da responsabilidade única diz que:
+          <em>“Cada classe deve ter um, e somente um, motivo para mudar.”</em>
+        </p>
+        <code>
+          public class GerenciadorTarefas {<br />
+          &nbsp;&nbsp;public void criarTarefa(){ /*...*/ }<br />
+          &nbsp;&nbsp;public void atualizarTarefa(){ /*...*/ }<br />
+          &nbsp;&nbsp;public void removerTarefa(){ /*...*/ }<br />
+          }
+        </code>
+      </section>
+
+      <section>
+        <h2>Princípio Aberto-Fechado (O - Open Closed Principle)</h2>
+        <p>
+          O Princípio Aberto-Fechado defende que entidades de software devem
+          estar abertas para extensão, mas <u>fechadas para modificação</u>.
+          Isso significa que podemos adicionar funcionalidades sem alterar o
+          código existente — por exemplo, criando novas classes que implementem
+          uma mesma interface, ao invés de modificar a classe original.
+        </p>
+      </section>
+
+      <section>
+        <h2>
+          Princípio de Substituição de Liskov (L - Liskov Substitution
+          Principle)
+        </h2>
+        <p>
+          Segundo o Princípio de Substituição de Liskov, classes-filhas devem
+          poder substituir suas classes-mães sem alterar o comportamento
+          esperado do sistema. Como explica a Alura, “classes derivadas devem
+          ser capazes de substituir suas classes-base”.
+        </p>
+        <p>
+          Um exemplo matemático: se X<sup>2</sup> é uma função válida para uma
+          classe base, qualquer classe filha deve manter esse contrato.
+        </p>
+      </section>
+
+      <section>
+        <h2>
+          Princípio de Segregação de Interface (I - Interface Segregation
+          Principle)
+        </h2>
+        <p>
+          O princípio da Segregação da Interface recomenda dividir interfaces
+          grandes em interfaces menores e específicas. Assim, uma classe não é
+          obrigada a implementar métodos que não utiliza — evitando, por
+          exemplo, que uma recepcionista tenha que implementar um método
+          <code>gerarComissao()</code> se isso não faz sentido para sua função.
+        </p>
+      </section>
+
+      <section>
+        <h2>
+          Princípio da Inversão de Dependência (D - Dependency Inversion
+          Principle)
+        </h2>
+        <p>
+          O Princípio da Inversão de Dependência diz:
+          <em>“dependa de abstrações e não de implementações concretas.”</em>
+        </p>
+        <p>
+          Assim, é recomendado que os módulos de alto nível não dependam
+          diretamente dos detalhes de implementação de módulos de baixo nível.
+        </p>
+        <p>
+          Em vez disso, eles devem depender de abstrações ou interfaces que
+          definem contratos de funcionamento. Isso promove maior flexibilidade e
+          facilita a manutenção do sistema.
+        </p>
+      </section>
+
+      <section>
+        <h2>Clean Code e SOLID</h2>
+        <p>
+          Os conceitos de <em>Clean Code</em> estão diretamente alinhados aos
+          princípios SOLID: eles tornam o código mais legível, organizado e
+          sustentável.
+        </p>
+        <blockquote>
+          “Bons programadores escrevem código que humanos podem entender.”
+          <cite> — Robert C. Martin (Uncle Bob)</cite>
+        </blockquote>
+        <code>
+          // Exemplo de código claro e pequeno public static double
+          converterCelsiusParaFahrenheit(double temperaturaCelsius) { return
+          (temperaturaCelsius * 9 / 5) + 32; }
+        </code>
+      </section>
+    </main>
+
+    <footer>
+      <p>Autor: Leonardo Teixeira</p>
+      <p>
+        E-mail: <a href="mailto:nardtotp18@gmail.com">nardtotp18@gmail.com</a>
+      </p>
+      <p>Data: <time datetime="2025-08-29">29 de agosto de 2025</time></p>
+      <p><a href="notas.html">Notas adicionais sobre o artigo</a></p>
+    </footer>
+  </body>
+</html>
