@@ -1,0 +1,43 @@
+table,
+td {
+  border: solid 1px #000;
+}
+
+.row-green {
+  td {
+    background-color: green;
+  }
+}
+.row-ligthgreen {
+  td {
+    background-color: lightgreen;
+  }
+}
+.row-black {
+  td {
+    background-color: #000;
+    color: white;
+  }
+}
+.row-gray {
+  td {
+    background-color: rgb(177, 173, 173);
+    color: white;
+  }
+}
+.row-darkgray {
+  td {
+    background-color: #555555;
+    color: white;
+  }
+}
+.row-ligthblue {
+  td {
+    background-color: rgb(59, 135, 160);
+  }
+}
+.row-darkblue {
+  td {
+    background-color: rgb(56, 56, 160);
+  }
+}

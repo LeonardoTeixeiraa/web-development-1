@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        Praticando 2 - Tabela grande com colspan e rowspan e planos de fundo
+      </h1>
+    </header>
+    <main>
+      <div class="tabela1">
+        <h2>Tabela com colspan e rowspan</h2>
+        <table>
+          <tr class="row-green">
+            <td colspan="2">Colspan</td>
+            <td>-</td>
+            <td rowspan="3">Rowspan</td>
+          </tr>
+          <tr class="row-red">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+          <tr class="row-blue">
+            <td>-</td>
+            <td colspan="2">Colspan</td>
+          </tr>
+          <tr class="row-yellow">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <div class="tabela2">
+        <figcaption>Legenda</figcaption>
+        <table>
+          <tr>
+            <td>Linha 1</td>
+            <td class="row-green">-----------</td>
+            <td>green</td>
+          </tr>
+          <tr>
+            <td>Linha 2</td>
+            <td class="row-red">-----------</td>
+            <td>red</td>
+          </tr>
+          <tr>
+            <td>Linha 3</td>
+            <td class="row-blue">-----------</td>
+            <td>blue</td>
+          </tr>
+          <tr>
+            <td>Linha 4</td>
+            <td class="row-yellow">-----------</td>
+            <td>yellow</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

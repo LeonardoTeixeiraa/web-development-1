@@ -1,0 +1,34 @@
+h1{
+    display: flex;
+    text-align: center;
+}
+.tabela1 {
+  width: fit-content;
+  text-align: center;
+  td {
+    border: solid 1px red;
+
+    padding: 30px 60px;
+    text-align: center;
+  }
+}
+.tabela2 {
+  width: fit-content;
+  text-align: center;
+  td {
+    border: solid 1px red;
+    padding: 6px 10px;
+  }
+}
+.row-green {
+    background-color: green;
+}
+.row-red {
+    background-color: red;
+}
+.row-yellow {
+    background-color: yellow;
+}
+.row-blue {
+    background-color: blue;
+}
