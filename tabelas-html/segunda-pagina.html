@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas com colspan e rowspan</title>
+    <style>
+      table,
+      td {
+        border: solid 1px red;
+      }
+      td {
+        padding: 30px 60px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Página 2 - Tabelas com colspan e rowspan</h1>
+    </header>
+    <main>
+      <h2>Tabela com colspan</h2>
+      <table>
+        <tr>
+          <td colspan="3">Colspan</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </table>
+      <h2>Tabela com rowspan</h2>
+      <table>
+        <tr>
+          <td>-</td>
+          <td rowspan="3">Rowspan</td>
+        </tr>
+        <tr>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+        </tr>
+      </table>
+      <h2>Tabela com colspan e rowspan</h2>
+      <table>
+        <tr>
+          <td colspan="2">Colspan</td>
+          <td>-</td>
+          <td rowspan="3">Rowspan</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td colspan="2">Colspan</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </table>
+    </main>
+    <footer>
+      <br>
+      <nav>
+        <a href="./index.html">Voltar ao menu principal</a>
+      </nav>
+    </footer>
+  </body>
+</html>
