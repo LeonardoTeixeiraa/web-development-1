@@ -1,0 +1,27 @@
+.title{
+    background-color: lightblue;
+    padding: 30px;
+}
+
+.section1{
+    background-color: lightgreen;
+    margin: 5px;
+    padding: 20px;
+}
+div{
+    background-color: yellow;
+    border: 1px solid red;
+    padding: 5px;
+    
+}
+.text1-container{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+footer{
+    background-color: lightgray;
+    align-content: center;
+    text-align: center;
+}
+
