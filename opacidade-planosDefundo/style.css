@@ -1,0 +1,38 @@
+body {
+  background-color: lightblue;
+  margin: 10px;
+}
+
+h1,
+h2,
+p {
+  margin-bottom: 15px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+#secao1 {
+  background-color: rgb(228, 72, 72);
+}
+
+#secao2 {
+  color: blue;
+  background-image: url("./Imagens-Praticandos-Backgrounds/gato.png");
+  background-repeat: repeat;
+  background-size: auto 40px;
+  background-color: gray;
+}
+#secao3 {
+  background-color: rgba(144, 238, 144, 0.5);
+  padding: 10px;
+}
+
+#gatoimg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 350px;
+  z-index: -1;
+}
