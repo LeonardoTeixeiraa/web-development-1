@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+#bloco-transparente{
+    background-color: gray;
+}
+#bloco-vermelho{
+    background-color: rgb(238, 74, 74);
+}
+#bloco-verde{
+    background-color: rgb(82, 238, 82);
+}
+#bloco-azul{
+    background-color: lightblue;
+    color:  white;
+}
+#bloco-amarelo{
+   background-color: lightyellow;
+    
+}
+#faixa-cinza{
+    background-color: gray;
+}
+#bloco-preto{
+    background-color: gray;
+    color: white;
+}
