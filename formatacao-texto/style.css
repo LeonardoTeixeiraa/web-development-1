@@ -1,0 +1,152 @@
+body {
+    background-image: url(imagem-fundo.jpg);
+    background-size: 80%;
+    background-repeat: repeat;
+    font-family: sans-serif;
+    border: none;
+}
+
+
+.container {
+    background-color: transparent;
+    padding: 15px; 
+    box-sizing: border-box;
+}
+
+h1{
+background-color: #706b6b; 
+    color:black
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    text-indent: 50px;
+}
+
+.section-parte1 {
+    background-color: #84f784;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.section-parte2 {
+    background-color: #d1e8f7; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.explanation {
+    position: relative;
+    left: -20px;
+    width: calc(100% + 40px); /* 20px para a esquerda + 20px para a direita */
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    border: none;
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+
+/* Cores diferentes para parágrafos */
+#paragrafo1 {
+    color: #008000;
+}
+
+#paragrafo2 {
+    color: #0000FF;
+}
+
+#paragrafo3 {
+    color: #FF0000;
+}
+
+/* Tamanhos de fonte */
+.font-size-small {
+    font-size: 10px;
+}
+
+.font-size-medium {
+    font-size: 16px;
+}
+
+.font-size-large {
+    font-size: 24px;
+}
+
+/* Fontes diferentes */
+.font-family-text {
+    font-weight: lighter;
+}
+
+.font-family-cursive {
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+}
+
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+
+
+.font-family-serif {
+    font-family: Georgia, serif;
+}
+
+.big-space {
+  margin-left: 50px; /* cria um espaço maior antes dessas palavras */
+  margin-right: 50px; /* e depois também, se quiser */
+}
+.font-family-monospace {
+    font-family: 'Courier New', monospace;
+}
+/* Alinhamentos */
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+}
+
+.line-height-small {
+    line-height: 1;
+}
+
+.line-height-normal {
+    line-height: 1.5;
+}
+
+.line-height-large {
+    line-height: 2;
+}
+.font-style-italic {
+    font-style: italic;
+}
+
+/* Removido isso ↓↓↓ pois vamos usar mistura manual no conteúdo */
+/* .section-parte1 p:nth-of-type(6) {
+    text-transform: uppercase;
+} */

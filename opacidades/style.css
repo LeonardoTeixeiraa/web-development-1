@@ -1,0 +1,52 @@
+h1{
+    margin-left: 10px;
+}
+.imagens{
+    display: inline;
+    margin-left: 10px;
+}
+img{
+    width: 250px;
+    height: 150px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}
+.opacidade, .rgba{
+    margin-left: 10px;
+}
+p{
+    font-size: 17pt;
+}
+#opa{
+    background-color: #008000;
+}
+#opa08{
+    background-color: #008000;
+    opacity: 0.8;
+}
+#opa06{
+    background-color: #008000;
+    opacity: 0.6;
+}
+#opa04{
+    background-color: #008000;
+    opacity: 0.4;
+}
+#opa02{
+    background-color: #008000;
+    opacity: 0.2;
+}
+#rg08{
+    background-color: rgb(0,128,0, 0.8);
+}
+#rg06{
+    background-color: rgb(0,128,0, 0.6);
+}
+#rg04{
+    background-color: rgb(0,128,0, 0.4);
+}
+#rg02{
+    background-color: rgb(0,128,0, 0.2);
+}

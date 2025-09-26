@@ -1,0 +1,76 @@
+/* Estilos gerais do corpo da página */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #ffffff;
+    padding: 10px;
+  
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Estilos para o container principal dos cards */
+.card-container {
+    margin: 10px;
+}
+
+/* Estilos para cada card */
+.card {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #000; 
+}
+
+/* Estilos para o título de cada card */
+.card h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Nova regra: Estilos para o nome da fonte */
+.nome-fonte {
+    color: red; 
+}
+
+.vermelho {
+    color: red;
+}
+
+/* Cores de fundo e fontes para cada card */
+#abel {
+    background-color: #ADD8E6; /* Azul claro */
+    font-family: 'Abel', sans-serif;
+}
+
+#borel {
+    background-color: #FFC0CB; /* Rosa */
+    font-family: 'Borel', cursive;
+}
+
+#crimson {
+    background-color: #90EE90; /* Verde claro */
+    font-family: 'Crimson Text', serif;
+}
+
+#handjet {
+    background-color: #D3D3D3; /* Cinza claro */
+    font-family: 'Handjet', cursive;
+}
+
+#roboto {
+    background-color: #FFA07A; /* Salmão claro */
+    font-family: 'Roboto Slab', serif;
+}
