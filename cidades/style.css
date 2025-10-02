@@ -21,7 +21,6 @@ h2 a {
   text-decoration: none;
 }
 
-
 section {
   margin-bottom: 2rem;
   padding: 1.5rem;
@@ -32,30 +31,29 @@ section {
   background-color: rgb(253, 229, 229);
   font-family: "Saira", sans-serif;
 }
-.title-sp a{
-  color: red;                 
+.title-sp a {
+  color: red;
   text-decoration: none;
 }
 
 #rj {
-  background-color: #e6f7ff;   
+  background-color: #e6f7ff;
   font-family: "Dancing Script", cursive;
   font-size: 1.2em;
 }
-.title-rj a{
-  color: #17608d;             
+.title-rj a {
+  color: #17608d;
   border-bottom: 2px solid #ccc;
   padding-bottom: 5px;
   text-decoration: none;
 }
 
-
 #mg {
-  background-color: #eaffea;   
+  background-color: #eaffea;
   font-family: "Merriweather", serif;
 }
-.title-mg a{
-  color: #1e8449;              
+.title-mg a {
+  color: #1e8449;
   text-decoration: none;
 }
 
