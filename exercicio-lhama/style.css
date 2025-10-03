@@ -1,0 +1,91 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-principal {
+    /* UNIDADE FIXA: Tamanho de fonte fixo (aprox. 30px) */
+    font-size: 40px; 
+    font-family: 'Lobster', cursive;
+}
+
+/* Estilos dos Containers */
+.container {
+    /* Largura de 100% (o container principal pode continuar assim) */
+    width: 100%; 
+    padding: 10px 0; /* UNIDADE FIXA: Padding fixo */
+    /* UNIDADE FIXA: Altura mínima fixa (aprox. 300px) */
+    min-height: 300px; 
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.verde {
+    background-color: #A3D9A3;
+    /* UNIDADE FIXA: Borda fixa */
+    border-top: 5px solid blue; 
+    border-bottom: 5px solid blue;
+}
+
+.vermelho {
+    background-color: #F08080;
+    /* UNIDADE FIXA: Borda fixa */
+    border-top: 5px solid brown;
+    border-bottom: 5px solid brown;
+}
+
+/* Estilo do título H2 dentro do container */
+.container h2 {
+    font-family: 'Lobster', cursive;
+    /* UNIDADE FIXA: Tamanho de fonte fixo (aprox. 60px) */
+    font-size: 60px; 
+    /* UNIDADE FIXA: Margem fixa */
+    margin: 10px 20px; 
+    white-space: nowrap;
+}
+
+.vermelho h2 {
+    text-align: right;
+}
+
+/* Container das imagens */
+.imagens {
+    display: flex;
+    align-items: flex-end; 
+    width: 900px; 
+    margin-top: 20px;
+    margin-left: 0; /* Isso força o alinhamento à esquerda */
+    justify-content: flex-start;
+}
+
+
+.imagens.reverso {
+    /* Alinha o bloco de 900px para a DIREITA */
+    margin-left: auto;
+    margin-right: 20px; /* Mantém uma margem lateral direita fixa */
+    
+    /* Faz o conteúdo dentro do bloco de 900px ser jogado para a direita */
+    justify-content: flex-end; 
+}
+
+/* Estilo das Lhamas */
+.imagens img {
+    height: auto;
+    /* UNIDADE FIXA: Margem entre as lhamas fixa */
+    margin-right: 20px; 
+    /* UNIDADE FIXA: Borda fixa */
+    border: 3px solid #483D8B; 
+}
+
+/* Ajuste de tamanho para criar o efeito "escada" */
+.verde .imagens img:nth-child(1) { width: 8%; }
+.verde .imagens img:nth-child(2) { width: 12%; }
+.verde .imagens img:nth-child(3) { width: 16%; }
+.verde .imagens img:nth-child(4) { width: 20%; }
+
+/* Ajuste de tamanho para criar o efeito "escada" invertido */
+.vermelho .imagens img:nth-child(1) { width: 20%; }
+.vermelho .imagens img:nth-child(2) { width: 16%; }
+.vermelho .imagens img:nth-child(3) { width: 12%; }
+.vermelho .imagens img:nth-child(4) { width: 8%; }
