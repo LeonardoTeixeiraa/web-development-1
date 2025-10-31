@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 136, 0);
+}
+
+.main-text{
+    font-size: 17px;
+    font-family:'Chiron Sung HK', sans-serif;
+    font-style: italic;
+    overflow: hidden;
+}
+
+.box-container{
+    background-color: rgb(173, 99, 243);
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+img{
+    width: 230px;
+    margin: 10px;
+}
+
+.img-fantasma {
+    float: right;
+}
+
+.img-abobora {
+    float: left;
+}
+
+.img-aranha {
+    float: right;
+}
+
+.p-clear {
+    clear: both;
+    margin-bottom: 20px;
+}
