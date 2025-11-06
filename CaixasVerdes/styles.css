@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 40px;
+  clear: both;
+}
+
+.container {
+  width: 90%; 
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.caixa-pequena,
+.caixa-longa,
+.caixa-vertical,
+.caixa-vertical-esquerda {
+  background-color: #006400; 
+  margin: 10px; 
+}
+
+.grupo-superior-direito {
+  float: right; 
+  width: 300px; 
+  margin-right: 0;
+  margin-bottom: 50px; 
+}
+
+.caixa-pequena {
+  width: 80px;
+  height: 80px;
+}
+
+.linha-meio {
+  width: 75%;
+  margin-left: 0;
+  margin-right: auto;
+  clear: both;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.caixa-longa {
+  width: 40%;
+  height: 90px;
+}
+.grupo-inferior {
+  margin-top: 50px;
+}
+
+.caixa-vertical-esquerda {
+  width: 150px;
+  height: 335px;
+  margin-left: 0;
+}
+
+.coluna-vertical-direita {
+  width: 280px;
+  margin-right: 0;
+  margin-top: 20px;
+}
+.caixa-vertical {
+  width: 120px;
+  height: 300px;
+}

@@ -1,108 +1,167 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cadastro de Conta Bancária</title>
-  <link 
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet"
-  >
-   <style>
-    .bg-laranja { background-color: #f97316 !important; } 
-    .btn-laranja { background-color: #f97316; border: none; }
-    .btn-laranja:hover { background-color: #ea580c; }
-    .table-laranja thead { background-color: #f97316; color: white; }
-  </style>
-</head>
-<body class="bg-light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cadastro de Conta Bancária</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .bg-laranja {
+        background-color: #f97316 !important;
+      }
+      .btn-laranja {
+        background-color: #f97316;
+        border: none;
+      }
+      .btn-laranja:hover {
+        background-color: #ea580c;
+      }
+      .table-laranja thead {
+        background-color: #f97316;
+        color: white;
+      }
+    </style>
+  </head>
+  <body class="bg-light">
+    <div class="container mt-5">
+      <div class="card shadow p-4">
+        <h2 class="text-center mb-4">Cadastro de Conta Bancária</h2>
 
-  <div class="container mt-5">
-    <div class="card shadow p-4">
-      <h2 class="text-center mb-4">Cadastro de Conta Bancária</h2>
-      
-      <form>
-        <div class="mb-3">
-          <label for="nome" class="form-label">Nome Completo</label>
-          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
-        </div>
-
-        <div class="mb-3">
-          <label for="email" class="form-label">E-mail</label>
-          <input type="email" class="form-control" id="email" placeholder="exemplo@email.com">
-        </div>
-
-        <div class="mb-3">
-          <label for="telefone" class="form-label">Telefone</label>
-          <input type="tel" class="form-control" id="telefone" placeholder="(xx) xxxxx-xxxx">
-        </div>
-
-        <div class="mb-3">
-          <label for="site" class="form-label">Link para comprovante de residencia</label>
-          <input type="url" class="form-control" id="site" placeholder="https://drive.google.com/...">
-        </div>
-
-   
-        <div class="mb-3">
-          <label for="renda" class="form-label">Renda Mensal (R$)</label>
-          <input type="number" class="form-control" id="renda" placeholder="Informe sua renda mensal">
-        </div>
-
-        <div class="mb-3">
-          <label for="dataNasc" class="form-label">Data de Nascimento</label>
-          <input type="date" class="form-control" id="dataNasc">
-        </div>
-
-        <div class="mb-3">
-          <label for="documento" class="form-label">Envio de Documento (RG ou CNH)</label>
-          <input type="file" class="form-control" id="documento">
-        </div>
-
-        <div class="mb-3">
-          <label for="tipoConta" class="form-label">Tipo de Conta</label>
-          <select class="form-select" id="tipoConta">
-            <option selected disabled>Selecione o tipo de conta</option>
-            <option value="corrente">Conta Corrente</option>
-            <option value="poupanca">Conta Poupança</option>
-            <option value="salario">Conta Salário</option>
-          </select>
-        </div>
-
-        <div class="mb-3">
-          <label for="observacoes" class="form-label">Observações</label>
-          <textarea class="form-control" id="observacoes" rows="3" placeholder="Observações adicionais..."></textarea>
-        </div>
-
-        <div class="form-check mb-3">
-          <input class="form-check-input" type="radio" name="aceite" id="aceiteTermos">
-          <label class="form-check-label" for="aceiteTermos">
-            Li e aceito os termos de uso.
-          </label>
-        </div>
-
-        <div class="mb-3">
-          <label class="form-label d-block">Serviços Desejados:</label>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="cartaoCredito">
-            <label class="form-check-label" for="cartaoCredito">Cartão de Crédito</label>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome Completo</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              placeholder="Digite seu nome completo"
+            />
           </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="chequeEspecial">
-            <label class="form-check-label" for="chequeEspecial">Cheque Especial</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="appBanco">
-            <label class="form-check-label" for="appBanco">Empréstimos</label>
-          </div>
-        </div>
 
-        <div class="d-flex justify-content-between">
-          <button type="reset" class="btn btn-secondary">Limpar</button>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-      </form>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="exemplo@email.com"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="telefone"
+              placeholder="(xx) xxxxx-xxxx"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="site" class="form-label"
+              >Link para comprovante de residencia</label
+            >
+            <input
+              type="url"
+              class="form-control"
+              id="site"
+              placeholder="https://drive.google.com/..."
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="renda" class="form-label">Renda Mensal (R$)</label>
+            <input
+              type="number"
+              class="form-control"
+              id="renda"
+              placeholder="Informe sua renda mensal"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="dataNasc" class="form-label">Data de Nascimento</label>
+            <input type="date" class="form-control" id="dataNasc" />
+          </div>
+
+          <div class="mb-3">
+            <label for="documento" class="form-label"
+              >Envio de Documento (RG ou CNH)</label
+            >
+            <input type="file" class="form-control" id="documento" />
+          </div>
+
+          <div class="mb-3">
+            <label for="tipoConta" class="form-label">Tipo de Conta</label>
+            <select class="form-select" id="tipoConta">
+              <option selected disabled>Selecione o tipo de conta</option>
+              <option value="corrente">Conta Corrente</option>
+              <option value="poupanca">Conta Poupança</option>
+              <option value="salario">Conta Salário</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="observacoes" class="form-label">Observações</label>
+            <textarea
+              class="form-control"
+              id="observacoes"
+              rows="3"
+              placeholder="Observações adicionais..."
+            ></textarea>
+          </div>
+
+          <div class="form-check mb-3">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="aceite"
+              id="aceiteTermos"
+            />
+            <label class="form-check-label" for="aceiteTermos">
+              Li e aceito os termos de uso.
+            </label>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label d-block">Serviços Desejados:</label>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="cartaoCredito"
+              />
+              <label class="form-check-label" for="cartaoCredito"
+                >Cartão de Crédito</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="chequeEspecial"
+              />
+              <label class="form-check-label" for="chequeEspecial"
+                >Cheque Especial</label
+              >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="appBanco" />
+              <label class="form-check-label" for="appBanco">Empréstimos</label>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <button type="reset" class="btn btn-secondary">Limpar</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
