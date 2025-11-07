@@ -2,7 +2,7 @@ function main() {
   let username = prompt("Qual o seu nome?");
 
   if (username == null) {
-    alert("Operação cancelada!");
+    alert("Você cancelou o prompt!");
     return;
   }
   if (username.length === 0) {
