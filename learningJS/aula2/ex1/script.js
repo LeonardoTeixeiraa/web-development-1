@@ -24,8 +24,8 @@ function addText() {
 }
 
 function removeText() {
-  const contentDiv = document.getElementById("lorem-ipsum-content");
-  contentDiv.textContent = "";
+  const container = document.getElementById("lorem-ipsum-container");
+  container.innerHTML = "";
 }
 
 showName();
