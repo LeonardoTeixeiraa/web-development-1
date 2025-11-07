@@ -17,8 +17,10 @@ function addText() {
   const LOREM_IPSUM =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem illo at quisquam delectus sed modi! Deserunt voluptas corporis accusantium expedita iure beatae veritatis quasi facilis distinctio, nesciunt debitis harum!";
 
-  const contentDiv = document.getElementById("lorem-ipsum-content");
-  contentDiv.textContent = LOREM_IPSUM;
+  const divLoremipsum = document.getElementById("lorem-ipsum-container");
+  const newParagraph = document.createElement("p");
+  newParagraph.textContent = LOREM_IPSUM;
+  divLoremipsum.appendChild(newParagraph);
 }
 
 function removeText() {
