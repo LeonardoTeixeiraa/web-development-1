@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Praticando 3 - Events</title>
+  </head>
+  <body>
+    <h1>
+        Praticando 3 - Javascript - Cores(click e mouse)
+    </h1>
+    <div class="box-container">
+      <div class="box-red">
+        <button id="box-red" class="color-box-button" onclick="handleButtonClick(this)"></button>
+      </div>
+      <div class="box-green">
+        <button id="box-green" class="color-box-button" onclick="handleButtonClick(this)"></button>
+      </div>
+      <div class="box-blue">
+        <button id="box-blue" class="color-box-button" onclick="handleButtonClick(this)"></button>
+      </div>
+      <div class="box-yellow">
+        <button id="box-yellow" class="color-box-button" onclick="handleButtonClick(this)"></button>
+      </div>
+      <div class="box-pink">
+        <button id="box-violet" class="color-box-button" onclick="handleButtonClick(this)"></button>
+      </div>
+    </div>
+
+    <div class="reset-button">
+      <button id="btn-reset" onclick="resetButton()">Reset</button>
+
+      <div id="preview-container">
+        <h2>Preview</h2>
+      </div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

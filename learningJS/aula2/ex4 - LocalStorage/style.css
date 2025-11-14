@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --default-margin: 40px;
+  --button-height: 40px;
+  --button-width: 150px;
+}
+
+h1 {
+  margin: var(--default-margin);
+}
+
+.color-box-button {
+  border-radius: 5px;
+  height: var(--button-height);
+  width: var(--button-width);
+  margin: var(--default-margin);
+  border: none;
+  opacity: 30%;
+  border: 1px black solid;
+}
+
+.color-box-button:hover {
+  scale: 105%;
+  opacity: 100%;
+  cursor: pointer;
+}
+
+#box-red {
+  background-color: red;
+}
+
+#box-green {
+  background-color: green;
+}
+
+#box-blue {
+  background-color: blue;
+}
+
+#box-yellow {
+  background-color: yellow;
+}
+
+#box-violet {
+  background-color: violet;
+}
+
+#btn-reset {
+  padding: 10px;
+  margin: 20px;
+  border: gray 1px solid;
+  border-radius: 5px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#preview-container{
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#preview-container.preview-visible {
+    opacity: 1;
+    visibility: visible;
+}
