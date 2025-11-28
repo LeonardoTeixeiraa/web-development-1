@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+    height: 100vh;
+}
+
+#lampada-container {
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#lampada-visual {
+    width: 200px; 
+    height: 300px;
+    margin: 0 auto;
+    
+    background-image: url('img/lampadaapagada.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-image 0.2s;
+}
+
+.aceso {
+    background-color: white;
+    color: black;
+}
+
+.aceso #lampada-visual {
+    background-image: url('img/lampadaacessa.jpeg');
+}
