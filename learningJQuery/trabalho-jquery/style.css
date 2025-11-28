@@ -1,0 +1,16 @@
+body {
+  background-color: #f8f9fa;
+}
+.card-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+#mensagem-status {
+  display: none;
+  margin-top: 15px;
+  padding: 10px;
+}
