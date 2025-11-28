@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.container-caixas {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.caixa {
+  width: 200px;
+  height: 40px;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.caixa:hover {
+  transform: scale(1.1);
+}
+
+#btnReset {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#preview-texto {
+  visibility: hidden;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#mensagem {
+  visibility: hidden;
+
+  position: fixed;
+  bottom: 100px;
+  right: 150px;
+
+  color: #000;
+  padding: 10px 20px;
+  border: 0px solid #000;
+  border-radius: 0;
+  font-weight: normal;
+  font-size: 20px;
+  z-index: 100;
+
+  color: rgb(19, 18, 18);
+}
