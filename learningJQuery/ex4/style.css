@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  min-height: 500px;
+}
+
+.instrucoes {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  cursor: pointer;
+  position: absolute;
+  transition: border-color 0.2s, top 0.3s, left 0.3s;
+}
+
+#q-vermelho {
+  background-color: red;
+  top: 250px;
+  left: 50px;
+}
+#q-azul {
+  background-color: blue;
+  top: 250px;
+  left: 165px;
+}
+#q-verde {
+  background-color: green;
+  top: 250px;
+  left: 280px;
+}
+
+.selecionado {
+  border-color: yellow;
+  z-index: 10;
+}
