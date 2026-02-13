@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="d-flex justify-content-center">
+      <h1>Formulário de Cadastro e Tabela com Dados</h1>
+    </header>
+
+    <div class="d-flex flex-row gap-4 justify-content-around">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Telefone</label>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Username"
+                placeholder="(99)9999-9999"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="nome" class="form-label">E-mail</label>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Username"
+                placeholder="seu@email.aqui"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Estado</label>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Text input with dropdown button"
+                placeholder="[Selecione]"
+              />
+
+              <button
+                class="btn btn-outline-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              ></button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">SP</a></li>
+                <li><a class="dropdown-item" href="#">RJ</a></li>
+                <li><a class="dropdown-item" href="#">SC</a></li>
+                <li><a class="dropdown-item" href="#">GO</a></li>
+                <li><a class="dropdown-item" href="#">AM</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex flex-column gap-2">
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col" class="bg-success text-white">Nome</th>
+              <th scope="col" class="bg-success text-white">Telefone</th>
+              <th scope="col" class="bg-success text-white">Email</th>
+              <th scope="col" class="bg-success text-white">Estado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mark</td>
+              <td>(28)7777-7777</td>
+              <td>mail@gmail.com</td>
+              <td>SC</td>
+            </tr>
+            <tr>
+              <td>Jacob</td>
+              <td>(28)7777-7777</td>
+              <td>mail@gmail.com</td>
+              <td>MG</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>(28)7777-7777</td>
+              <td>mail@gmail.com</td>
+              <td>SP</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+</html>
